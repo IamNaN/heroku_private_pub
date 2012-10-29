@@ -14,7 +14,7 @@ This project is a barebones private_pub deployment that runs as a separate app o
 
 Setting up heroku_private_pub is easy: just clone it, edit one file, and push it to Heroku. Of course, there's a little handwaving going on, so here are the excruciating details.
 
-In this example, we want to create a Faye server named 'mypubserver' that will  run at http://mypubserver.herokuapp.com:9292/faye. So, anywhere you see 'mypubserver', replace it with the name you want to use.
+In this example, we want to create a Faye server named 'mypubserver' that will  run at http://mypubserver.herokuapp.com/faye. So, anywhere you see 'mypubserver', replace it with the name you want to use.
 
 1. Clone the heroku_private_pub on github to your development computer, in a new project folder (not the same as your rails project):
 
