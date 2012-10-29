@@ -4,14 +4,6 @@
 # Replace YOUR_APP with the heroku app name and YOUR_TOKEN with the
 # same token used in private_pub.yml of your rails project.
 
-development:
-  server: "http://localhost:9292/faye"
-  secret_token: "MY_KEY"
-
-test:
-  server: "http://localhost:9292/faye"
-  secret_token: "MY_KEY"
-
 production:
   server: "http://MY_APP.herokuapp.com/faye"
   secret_token: "MY_KEY"
