@@ -13,6 +13,6 @@ test:
   secret_token: "MY_KEY"
 
 production:
-  server: "http://MY_APP.herokuapp.com:9292/faye"
+  server: "http://MY_APP.herokuapp.com/faye"
   secret_token: "MY_KEY"
   signature_expiration: 86400 # one day
