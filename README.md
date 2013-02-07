@@ -4,7 +4,7 @@
 
 Faye ([github](http://github.com/faye/faye)) is a rack-based messaging system that allows web clients to communicate. 
 
-Ryan Bates created private_pub ([github](http://github.com/ryanb/private_pub)) to easily add Faye to Rails projects. There is a Railscast for that [here](http://http://railscasts.com/episodes/316-private-pub).
+Ryan Bates created private_pub ([github](http://github.com/ryanb/private_pub)) to easily add Faye to Rails projects. There is a Railscast for that [here](http://railscasts.com/episodes/316-private-pub).
 
 Heroku is a common place for us rails developers to put our projects, but Heroku can be restrictive given memory and processor constraints, especially at the free level. Running any Faye server concurrently with a rails app isn't stable.
 
